@@ -1,0 +1,302 @@
+[{
+	"_id": {
+		"$oid": "6144eb8187fb2b0bc4c24724"
+	},
+	"ratings": {
+		"total": 6.4,
+		"avg": 3,
+		"reviews": []
+	},
+	"created": 1.63190593589E+12,
+	"currency": {
+		"id": "LKR",
+		"format": "රු"
+	},
+	"sizes": [
+		8,
+		9
+	],
+	"images": [
+		"http://localhost:3001/assets/mADgHU6OXWGGeRlm.png",
+		"http://localhost:3001/assets/f7FkaalTQQkW6rbk.png"
+	],
+	"category": "sneakers",
+	"customerType": 1,
+	"status": 1,
+	"name": "Swiss Guard",
+	"price": 2690,
+	"description": "Indeed, the Swiss Guard is a big brand not just due to fragrances, but also due to the fact that they offer affordable, high-quality products. You can wear their perfumes for regular everyday casual wear. They combine the strong masculine scent",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "6141a6d868a536664a022c48"
+	},
+	"ratings": {
+		"total": 0,
+		"avg": 0,
+		"reviews": []
+	},
+	"created": 1.631692018214E+12,
+	"currency": {
+		"id": "LKR",
+		"format": "රු"
+	},
+	"sizes": [
+		8,
+		9
+	],
+	"images": [
+		"http://localhost:3001/assets/F2uW8XYlRRfBQvbp.png",
+		"http://localhost:3001/assets/5QKe03njDT9BKDEY.png",
+		"http://localhost:3001/assets/WC8TlNRshgeFWeUP.png"
+	],
+	"category": "sneakers",
+	"customerType": 3,
+	"status": 1,
+	"name": "Colen",
+	"price": 500,
+	"description": " This is an amazing brand of perfumeThis is an amazing brand of perfumeThis is an amazing brand of perfumeThis is an amazing brand of perfumeThis is an amazing brand of perfumeThis is an amazing brand of perfume",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "6144eb4187fb2b0bc4c24723"
+	},
+	"ratings": {
+		"total": 3,
+		"avg": 1,
+		"reviews": []
+	},
+	"created": 1.63190593589E+12,
+	"currency": {
+		"id": "LKR",
+		"format": "රු"
+	},
+	"sizes": [
+		8,
+		9
+	],
+	"images": [
+		"http://localhost:3001/assets/XIzrZkok788WKmQX.png",
+		"http://localhost:3001/assets/h9Ceig62eCJpr0Cm.png"
+	],
+	"category": "sneakers",
+	"customerType": 2,
+	"status": 1,
+	"name": "Vera Wang",
+	"price": 4690,
+	"description": "Vera Wang needs no introduction and is a known name in the fashion industry. Also, the range is a decent option for regular day wear.",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "6144eaef87fb2b0bc4c24722"
+	},
+	"ratings": {
+		"total": 0,
+		"avg": 0,
+		"reviews": []
+	},
+	"created": 1.63190593589E+12,
+	"currency": {
+		"id": "LKR",
+		"format": "රු"
+	},
+	"sizes": [
+		8,
+		9
+	],
+	"images": [
+		"http://localhost:3001/assets/ObA3iKoOjkfOLAXX.png",
+		"http://localhost:3001/assets/rEmd6VZPA7qoNqzD.png"
+	],
+	"category": "sneakers",
+	"customerType": 2,
+	"status": 1,
+	"name": "Dolce & Gabbana",
+	"price": 5000,
+	"description": "This very perfume brand is the most favorite amongst both men and women. They have many perfumes, but the Light Blue for women is their most representative one. Their fragrances include notes from roses, apple, jasmine, and musk. The perfume is a rather concentrated formula",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "6144ec0087fb2b0bc4c24725"
+	},
+	"ratings": {
+		"total": 6.3,
+		"avg": 3,
+		"reviews": []
+	},
+	"created": 1.63190593589E+12,
+	"currency": {
+		"id": "LKR",
+		"format": "රු"
+	},
+	"sizes": [
+		8,
+		9
+	],
+	"images": [
+		"http://localhost:3001/assets/u9tNNP5HVk1M6WZJ.png",
+		"http://localhost:3001/assets/vJK8FYrs95fiDFNr.png"
+	],
+	"category": "sneakers",
+	"customerType": 1,
+	"status": 1,
+	"name": "Jean-Paul Gaultier",
+	"price": 9690,
+	"description": "Who doesn’t know Jean-Paul Gautier? It is one of the bigger brands when it comes to perfumes for men. Their perfume range is perfect for that casual wear, and holds the fragrance",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "6144ec4387fb2b0bc4c24726"
+	},
+	"ratings": {
+		"total": 4,
+		"avg": 2,
+		"reviews": []
+	},
+	"created": 1.63190593589E+12,
+	"currency": {
+		"id": "LKR",
+		"format": "රු"
+	},
+	"sizes": [
+		8,
+		9
+	],
+	"images": [
+		"http://localhost:3001/assets/WdFsn7AMGQDKHeIy.png",
+		"http://localhost:3001/assets/7YQepbBElI4Uk3KB.png"
+	],
+	"category": "sneakers",
+	"customerType": 1,
+	"status": 1,
+	"name": "Sarah Jessica Parker",
+	"price": 2312,
+	"description": "From the time of Sex and the city, Sarah Jessica Parker has carved an oomph factor in the entrainment industry, and with the perfume line, she has traversed her popularity onscreen and venture into various business.",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "6144ed1787fb2b0bc4c24727"
+	},
+	"ratings": {
+		"total": 8,
+		"avg": 1,
+		"reviews": []
+	},
+	"created": 1.63190593589E+12,
+	"currency": {
+		"id": "LKR",
+		"format": "රු"
+	},
+	"sizes": [
+		8,
+		9
+	],
+	"images": [
+		"http://localhost:3001/assets/CgIvOw3dUm34Q7qj.png",
+		"http://localhost:3001/assets/v4rn2HvUQHlmB97p.png"
+	],
+	"category": "sneakers",
+	"customerType": 1,
+	"status": 1,
+	"name": "Boss ",
+	"price": 2311,
+	"description": "Boss  is another perfume brand, which is dominating the fashion industry. They already hold a great reputation in the fashion industry, and further, the perfume range has helped them to carve a recognition in the market",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "6144ed6087fb2b0bc4c24728"
+	},
+	"ratings": {
+		"total": 5,
+		"avg": 1,
+		"reviews": []
+	},
+	"created": 1.63190593589E+12,
+	"currency": {
+		"id": "LKR",
+		"format": "රු"
+	},
+	"sizes": [
+		8,
+		9
+	],
+	"images": [
+		"http://localhost:3001/assets/R33Ua8rZcLfrfwZ8.png",
+		"http://localhost:3001/assets/HMoHMzUcKTnQeNAQ.png"
+	],
+	"category": "sneakers",
+	"customerType": 1,
+	"status": 1,
+	"name": "MONT BLANC",
+	"price": 9000,
+	"description": "Although a bit expensive, but MONTBLANC products are worth to invest in. The seductive masculine scent, it carries is nearly impossible to forget.",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "6144ed9787fb2b0bc4c24729"
+	},
+	"ratings": {
+		"total": 9,
+		"avg": 4,
+		"reviews": []
+	},
+	"created": 1.63190593589E+12,
+	"currency": {
+		"id": "LKR",
+		"format": "රු"
+	},
+	"sizes": [
+		8,
+		9
+	],
+	"images": [
+		"http://localhost:3001/assets/jSjE9Bm94hXf9QL5.png",
+		"http://localhost:3001/assets/fZiy9jPPxKiDm1PN.png"
+	],
+	"category": "sneakers",
+	"customerType": 3,
+	"status": 1,
+	"name": "Guess",
+	"price": 6040,
+	"description": "Although a bit expensive, but MONTBLANC products are worth to invest in. The seductive masculine scent, it carries is nearly impossible to forget.",
+	"__v": 0
+},
+{
+	"_id": {
+		"$oid": "61474c58a7852e34d93d52d8"
+	},
+	"ratings": {
+		"reviews": [],
+		"total": 3,
+		"avg": 2
+	},
+	"created": 1.632061585026E+12,
+	"currency": {
+		"id": "LKR",
+		"format": "LKR"
+	},
+	"sizes": [
+		8,
+		9
+	],
+	"images": [
+		"http://localhost:3001/assets/lzDCy3IqoVCR5lv0.png",
+		"http://localhost:3001/assets/og1TJmlgRww8Mdyo.png"
+	],
+	"category": "sneakers",
+	"customerType": 3,
+	"status": 2,
+	"name": "Nikhil Nair",
+	"price": 0,
+	"description": "sdfsdf",
+	"__v": 0
+}]
+
