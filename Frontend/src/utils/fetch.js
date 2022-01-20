@@ -15,7 +15,7 @@ export function request(endpoint, { body, ...customConfig } = {}) {
   }
 
   return window
-    .fetch(`/api/${endpoint}`, config)
+    .fetch(`http://localhost:3000/api/${endpoint}`, config)
     .then(async (response) => {
       const data = await response.json();
       if (response.ok) {

@@ -93,7 +93,7 @@ exports.UploadProduct = catchAsync(async (req, res, next) => {
     var buffer = Buffer.from(data, "base64");
     const file_name = makeid(16) + "." + ext;
     fs.writeFileSync(DIRECTORY + file_name, buffer);
-    imgarr.push("http://localhost:3001" + "/assets/" + file_name);
+    imgarr.push("http://localhost:3000" + "/assets/" + file_name);
   }
   if(imgarr.length==0){
     imgarr=["https://i.insider.com/61135525ad63f30019501966?width=700","https://i.insider.com/61135525ad63f30019501966?width=700"]

@@ -8,7 +8,7 @@ const OrderRoutes = require('./routes/order');
 const cors = require('cors');
 const app = express();
 
-app.use(express.json({ limit: '50mb' }));
+app.use(express.json({ limit: '51mb' }));
 app.use(cors());
 app.use(express.static('client/build'));
 
