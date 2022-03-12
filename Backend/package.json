@@ -1,0 +1,40 @@
+{
+  "name": "shopping-cart",
+  "version": "0.0.1",
+  "description": "react shopping cart",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "client": "cd client && npm start",
+    "server": "nodemon server.js"
+  },
+  "keywords": [
+    "react",
+    "javsacript",
+    "nodejs",
+    "mongodb",
+    "shopping-cart",
+    "backend-services",
+    "hooks-api-react",
+    "context-api",
+    "usereducer",
+    "sneakers",
+    "create-react-app",
+    "mern-stack"
+  ],
+  "author": "",
+  "license": "ISC",
+  "homepage": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.2",
+    "morgan": "^1.10.0",
+    "pdfkit": "^0.12.3"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.3"
+  }
+}

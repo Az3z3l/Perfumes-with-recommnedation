@@ -1,0 +1,10 @@
+.custombg{
+  height: 50px;
+  background: #b7dde3;
+}
+
+@media screen and (max-width:600px) {
+  .custombg{
+    display: none;
+  }
+}

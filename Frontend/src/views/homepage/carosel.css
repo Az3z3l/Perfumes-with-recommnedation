@@ -1,0 +1,13 @@
+@media screen and (min-width: 576px) {
+    .crop-image {
+      height: 400px;
+      object-fit: cover;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .crop-image {
+      height: 250px;
+      object-fit: cover;
+    }
+  }

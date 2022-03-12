@@ -1,0 +1,34 @@
+version: '3'
+
+services:
+    frontend:
+        build: './Frontend'
+        restart: on-failure
+        volumes:
+        - /app/node_modules
+        - ./Frontend:/app
+        ports:
+        - "3001:3000"
+
+    backend:
+        build: './Backend'
+        restart: on-failure
+        links:
+            - mongo
+        volumes:
+        - /app/node_modules
+        - ./Backend:/app
+        ports:
+        - "3000:3000"
+
+    mongo:
+        build: './Database'
+        restart: always
+        user: root
+        volumes:
+        - ./Database/dbdata/:/data/db/
+        # environment:
+        #     MONGO_INITDB_ROOT_USERNAME: admin
+        #     MONGO_INITDB_ROOT_PASSWORD: verysecur3ands3cret
+        ports: 
+        - 27017:27017

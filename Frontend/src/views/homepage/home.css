@@ -1,0 +1,13 @@
+.GeneratedMarquee {
+    font-family:'Comic Sans MS';
+    font-size:2em;
+    line-height:1.3em;
+    color:#996600;
+    background-color:#f3cabc;
+    padding:1.5em;
+    
+    }
+.crop-image {
+    height: 400px;
+    object-fit: cover;
+}
