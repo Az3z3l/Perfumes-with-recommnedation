@@ -446,6 +446,22 @@
     display: flex;
   }
 
+  .recommendation {
+  flex: 1;
+  background-color: #fff;
+  color: #fff;
+  padding: 10px 20px;
+  height: 40px;
+  line-height: 20px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 400;
+  transition: all .2s ease-in;
+  cursor: pointer;
+  font-size: 14px;
+  }
+
 }
 
 @media screen and (min-width:601px) and (max-width:767px) {
@@ -494,7 +510,6 @@
   .buy_text {
     display: none;
   }
-
-
+  
 
 }

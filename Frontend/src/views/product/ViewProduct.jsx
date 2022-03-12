@@ -9,6 +9,8 @@ import Noty from 'noty';
 import style from './product.module.css';
 import './../../../node_modules/noty/lib/noty.css';
 import './../../../node_modules/noty/lib/themes/relax.css';
+import {data} from "../../assets/banner/data";
+
 
 const breakPoints = {
   superLargeDesktop: {
@@ -196,7 +198,7 @@ const ViewProduct = () => {
                 <button
                   type="button"
                   className={style.dark_btn}
-                  onClick={(e) => setFullView(false)}
+                  onClick={(e) => {setFullView(true)}}
                 >
                   <span className="material-icons">close</span>
                 </button>
@@ -274,7 +276,11 @@ const ViewProduct = () => {
                     shopping_cart
                   </span>
                 </div>
+                <div>
+              <button className={style.action_buy} onClick={() => {  alert(data[1].a+"\n"+data[1].b+"\n"+data[1].c+"\n")}} >Recommendation </button>
+              </div> 
               </div>
+              
             </div>
           </div>
         )}
