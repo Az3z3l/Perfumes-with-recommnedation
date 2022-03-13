@@ -13,22 +13,22 @@ services:
     backend:
         build: './Backend'
         restart: on-failure
-        links:
-            - mongo
+        # links:
+        #     - mongo
         volumes:
         - /app/node_modules
         - ./Backend:/app
         ports:
         - "3000:3000"
 
-    mongo:
-        build: './Database'
-        restart: always
-        user: root
-        volumes:
-        - ./Database/dbdata/:/data/db/
-        # environment:
-        #     MONGO_INITDB_ROOT_USERNAME: admin
-        #     MONGO_INITDB_ROOT_PASSWORD: verysecur3ands3cret
-        ports: 
-        - 27017:27017
+    # mongo:
+    #     build: './Database'
+    #     restart: always
+    #     user: root
+    #     volumes:
+    #     - ./Database/dbdata/:/data/db/
+    #     # environment:
+    #     #     MONGO_INITDB_ROOT_USERNAME: admin
+    #     #     MONGO_INITDB_ROOT_PASSWORD: verysecur3ands3cret
+    #     ports: 
+    #     - 27017:27017
