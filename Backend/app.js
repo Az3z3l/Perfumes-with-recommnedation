@@ -21,12 +21,14 @@ app.use('/api/authentication', AuthRoutes);
 app.use('/api/tokens', TokenRoutes);
 app.use('/api/orders', OrderRoutes);
 
-app.use((req, res) => {
-  res.sendFile(path.join(__dirname, '/client/build/index.html'));
-});
+// app.use((req, res) => {
+//   res.sendFile(path.join(__dirname, '/client/build/index.html'));
+// });
 
-app.all('*', (req, res, next) => {
-  res.sendFile(path.join(__dirname, '/client/build/index.html'));
-});
+app.use('/assets', express.static(path.join(__dirname, 'client','public','assets')))
+
+// app.all('*', (req, res, next) => {
+//   res.sendFile(path.join(__dirname, '/client/build/index.html'));
+// });
 
 module.exports = app;
