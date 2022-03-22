@@ -128,7 +128,6 @@ const ViewProduct = () => {
       })
       .catch((err) => {
         setProductDetails(null);
-        setIsLoading(false);
       });
   }, [id]);
 
@@ -277,7 +276,15 @@ const ViewProduct = () => {
                   </span>
                 </div>
                 <div>
-              <button className={style.action_buy} onClick={() => {  alert(data[1].a+"\n"+data[1].b+"\n"+data[1].c+"\n")}} >Recommendation </button>
+              <button className={style.action_buy} onClick={() => { 
+                var index = 0;
+                for(var i=0; i<data.length; i++){
+                  if (String(data[i].name) === String(product.name))
+                    {
+                      index = i
+                    }
+                }
+                 alert(data[index].a+"\n"+data[index].b+"\n"+data[index].c+"\n")}} >Recommendation </button>
               </div> 
               </div>
               
