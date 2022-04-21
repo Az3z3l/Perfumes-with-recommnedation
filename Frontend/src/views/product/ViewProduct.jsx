@@ -279,12 +279,14 @@ const ViewProduct = () => {
               <button className={style.action_buy} onClick={() => { 
                 var index = 0;
                 for(var i=0; i<data.length; i++){
-                  if (String(data[i].name) === String(product.name))
+                  
+                  if (String(data[i].name.toLowerCase()).search(product.name.toLowerCase()) != -1)
                     {
                       index = i
                     }
                 }
-                 alert(data[index].a+"\n"+data[index].b+"\n"+data[index].c+"\n")}} >Recommendation </button>
+                console.log(data)
+                 alert(data[index].a+"\n"+data[index].b+"\n"+data[index].c+"\n"+data[index].d+"\n"+data[index].e)}} >Recommendation </button>
               </div> 
               </div>
               
