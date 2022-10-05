@@ -12,7 +12,7 @@ const history = useHistory();
 
      await axios.post(`http://localhost:3000/api/tokens/settoken`,data).then(res=>{
         if(res.data.data){
-           alert('item inserted')
+           prompt('item inserted');
            history.push('/admin_H0W41294EN/' );
         }
     })

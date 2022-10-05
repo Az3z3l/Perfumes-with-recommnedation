@@ -26,6 +26,10 @@ const Logout=()=>{
 
 
 
+useEffect(() => {
+//Lazyloading
+}, [])
+
 function App() {
 
   const [search, setSearch] = useState('')
