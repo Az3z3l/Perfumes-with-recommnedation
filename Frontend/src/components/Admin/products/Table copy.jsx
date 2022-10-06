@@ -23,7 +23,7 @@ const Table = () => {
       .post(`http://localhost:3000/api/products/delete`, data)
       .then((res) => {
         if (res.data.data) {
-          alert("item deleted");
+          prompt("item deleted");
           setda(!da);
         }
       });

@@ -41,7 +41,7 @@ const AddProduct = ({passprops,setEditProd,editprod,setda,da}) => {
       .post(`http://localhost:3000/api/products/editor`, data)
       .then((res) => {
         if (res.data.data) {
-          alert("item updated");
+          prompt("item updated");
           setloading(false);
           setEditProd(false)
           setda(!da)

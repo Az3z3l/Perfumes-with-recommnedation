@@ -15,7 +15,7 @@ useEffect(async () => {
           if (res.data.status == "ok") {
             setAddress(res.data.data.address);
           } else {
-            alert("Incorrect password");
+            confirm("Incorrect password");
           }
         });
 }, []);
@@ -23,17 +23,17 @@ useEffect(async () => {
   const Updatepass = async () => {
     let data = { email, password: password, newpassword: newpass };
     if (password == "" || newpass == "") {
-      alert("please type the newpass and original pass");
+      prompt("please type the newpass and original pass");
     } else {
       await axios
         .post(`http://localhost:3000/api/authentication/UpdatePass`, data)
         .then((res) => {
           if (res.data.status == "ok") {
-            alert("Updated");
+            prompt("Updated");
             setNewpass("");
             setPassword("");
           } else {
-            alert("Incorrect password");
+            prompt("Incorrect password");
           }
         });
     }
@@ -46,9 +46,9 @@ useEffect(async () => {
         .post(`http://localhost:3000/api/authentication/UpdateAddress`, data)
         .then((res) => {
           if (res.data.status == "ok") {
-            alert("Updated");
+            confirm("Updated");
           } else {
-            alert("Incorrect password");
+            prompt("Incorrect password");
           }
         });
       }

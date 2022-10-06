@@ -27,7 +27,7 @@ const Upload_Data =async()=>{
     
      await axios.post(`http://localhost:3000/api/products/upload`,data).then(res=>{
         if(res.data.data){
-           alert('item inserted')
+          prompt('item inserted')
            setloading(false)
         }
     })
